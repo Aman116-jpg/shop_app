@@ -22,6 +22,7 @@ class CartPage extends StatelessWidget {
                 backgroundImage: AssetImage(cartItem['imageUrl'] as String),
                 radius: 30,
               ),
+
               trailing: IconButton(
                 onPressed: () {
 
